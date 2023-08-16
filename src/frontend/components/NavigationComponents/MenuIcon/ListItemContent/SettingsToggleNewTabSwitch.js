@@ -25,7 +25,7 @@ export default function SettingsToggleNewTabSwitch(props){
             <label className="switch">
                 <input 
                 type="checkbox"
-                checked={!newTabToggle}/*Logic is flipped because initializing state without localstorage as true would not function correctly*/
+                checked={!newTabToggle}
                 onChange={handleClick}/>
                 <span className="slider round"></span>
             </label>
