@@ -1,0 +1,109 @@
+
+
+.Settings{
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-style: solid;
+    border-radius: 2em;
+    color:black;
+    border: .1em solid #ccc;
+    box-sizing: border-box;
+    width: 30em;
+    max-width: 90vw;
+    overflow: hidden;
+}
+
+
+.settingsForm{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0em;
+    margin-bottom: 3em;
+}
+
+.NameInput{
+    box-sizing: border-box;
+    width: 20em;
+    height: 2em;
+    border: .1em solid #ccc;
+    border-style: solid;
+    border-radius: 1em;
+    resize: none;
+    text-align: left;
+    max-width: 80vw;
+
+}
+
+.NameInput[type=text]{
+    color:black;
+    padding-left:1em;
+}
+.NameInput[inputmode=numeric]{
+    color:black;
+    padding-left:1em;
+}
+h2{
+    color:black;
+    
+}
+
+
+
+
+
+
+
+.dark * .Settings{
+    background-color: rgba(25, 25, 25, 0.7);
+    border: .1em solid #424242;
+    color:white;
+}
+
+.dark * .ChangeWeatherLocation{
+    background-color: rgba(25, 25, 25, 0.7);
+    border: .1em solid #424242;
+    color:white;
+}
+
+.dark .NameInput{
+    background-color: rgb(44, 44, 44);
+    border-color: rgba(22, 22, 22, .5);
+}
+.dark h2{
+    color:white;
+}
+
+.dark .NameInput[type=text]{
+    color:white;
+    padding-left:1em;
+}
+.dark .NameInput[inputmode=numeric]{
+    color:white;
+    padding-left:1em;
+}
+@media (min-width:1400px){
+    .Settings{
+        margin-top:25%;
+    }
+}
+@media (max-width:1400px){
+    .Settings{
+        margin-top:25%;
+    }
+}
+@media (max-width:1200px){
+    .Settings{
+        margin-top:20%
+    }
+}
+@media (max-width:800px){
+    .Settings{
+        margin-top:15%
+    }
+}
+@media (max-width:600px){
+    .Settings{
+        margin-top:0%
+    }
+}

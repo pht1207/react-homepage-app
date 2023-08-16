@@ -1,0 +1,52 @@
+.MenuIconDiv{
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  margin-left: 1em;
+  margin-top:.4em;
+  animation-name: moveDown;
+  animation-duration: 1.5s;
+}
+.dropdown {
+  z-index: 1;
+  position: absolute;
+  top: 5em;
+  left: 1em;
+  width: 10em;
+  z-index: 5;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+  border-radius: 1em;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+svg{
+  padding:0;
+  margin:0;
+  cursor:pointer;
+}
+  
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+.dark .dropdown {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+  background-color: rgba(44, 44, 44, 0.7);
+}
+  
+.dark ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+@keyframes moveDown {
+  0%{transform: translateY(-20em); opacity: 0;}
+  100%{opacity: 1;}
+}

@@ -1,0 +1,47 @@
+
+.weatherIconDiv{
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: .7em;
+    background-color: rgba(255, 255, 255, .55);
+    padding-right: 1em;
+    margin-left:1em;
+    animation-name: moveDown;
+    animation-duration: 1.5s;
+    cursor: pointer;
+    overflow: hidden;  
+  }
+.WeatherDropDown{
+  padding: 0;
+  margin: 0;
+}
+.weatherImage{
+  width:40px;
+  height: 40px;
+}
+
+
+.temperatureReading{
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+  min-width: 3em;
+}
+
+.invalidZipCode{
+  font-size: 1.5em;
+  padding-right: 0;
+  padding-top: .3em;
+  padding-left: .5em;
+  padding-bottom: .3em;
+  margin: 0;
+}
+
+
+
+.dark .weatherIconDiv{
+  background-color: rgb(71, 71, 71, .6) ;
+}

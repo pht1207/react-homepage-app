@@ -1,0 +1,64 @@
+.searchDiv{
+    overflow: hidden;
+}
+form{
+    margin-top: 25em;
+    overflow: hidden;
+    margin-top: 15%
+
+}
+input{
+    box-sizing: border-box;
+    width: 60em;
+    height: 3em;
+    border: .1em solid #ccc;
+    border-style: solid;
+    border-radius: 2em;
+    text-align: left;
+    font-size: 1em;
+    position:relative;
+    max-width: 80vw;
+    overflow: hidden;
+
+}
+input[type=text]{
+    color:black;
+    padding-left:1em;
+}
+h1{
+    color:white;
+    position:relative;
+    overflow: hidden;
+}
+
+
+
+
+@media (min-aspect-ratio:8/5){
+
+    form{
+        margin-top: 20%;
+    }
+    @media (max-width:800px){
+        form{
+            margin-top: 5%;
+        }
+    }
+}
+        
+
+    
+
+
+
+
+.dark input{
+    background-color: rgb(44, 44, 44);
+    border-color: rgba(22, 22, 22, .5);
+}
+.dark input[type=text]{
+    color:white;
+}
+input:focus {
+    outline-width: 0;
+}
