@@ -31,7 +31,7 @@ export default function WeatherIcon() {
 
 async function getWeatherStats(){
   //Calls backend server function, sending the zip code and querying the openweatherAPI
-  const resolvedFetch = await fetch('https://home.parkert.dev:8080/api/weather?zip='+settingsContext.locationZip);
+  const resolvedFetch = await fetch('https://home.parkert.dev/backend/api/weather?zip='+settingsContext.locationZip);
   let fetchData = await resolvedFetch.json();
   setFetchLoading(false);
   //If returns any code (meaning an error), return nothing and do not set 'loaded' to true (showing an error where weather would be)

@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1dc6e24d.css",
+    "main.js": "/static/js/main.632cd550.js",
+    "static/js/787.ac8f171e.chunk.js": "/static/js/787.ac8f171e.chunk.js",
+    "static/media/background8.webp": "/static/media/background8.c3aefa5b728c23c5c209.webp",
+    "static/media/background5.webp": "/static/media/background5.7c8e5e3fa01b591dd8c9.webp",
+    "static/media/background15.webp": "/static/media/background15.d606734f319c0f5ea582.webp",
+    "static/media/background17.webp": "/static/media/background17.799ba31bf91eb807878e.webp",
+    "static/media/background13.webp": "/static/media/background13.0370c1debbb1fe0c5c96.webp",
+    "static/media/background4.webp": "/static/media/background4.7b414f9cc3509b9c3534.webp",
+    "static/media/background9.webp": "/static/media/background9.d2dd504b36875801bcc8.webp",
+    "static/media/background19.webp": "/static/media/background19.aa00cabcec612c1dce8e.webp",
+    "static/media/ladybug.webp": "/static/media/ladybug.6483c183e1d8d48d0bf6.webp",
+    "static/media/background12.webp": "/static/media/background12.461990e681c5a0c0c7ba.webp",
+    "static/media/background10.webp": "/static/media/background10.296cb161bc2fe72038f5.webp",
+    "static/media/background14.webp": "/static/media/background14.0586346a987d65742740.webp",
+    "static/media/background1.webp": "/static/media/background1.cb739f1f632f46662bcf.webp",
+    "static/media/background2.webp": "/static/media/background2.eef61bdbe3fe7bf7e09d.webp",
+    "static/media/background11.webp": "/static/media/background11.20938509d7084fb47a66.webp",
+    "static/media/background7.webp": "/static/media/background7.3c79b1a735100178fc73.webp",
+    "static/media/background6.webp": "/static/media/background6.f895030fb5fc699c806e.webp",
+    "static/media/background3.webp": "/static/media/background3.419512a0c83f78de7cd4.webp",
+    "static/media/background18.webp": "/static/media/background18.857c6c17f09f56302545.webp",
+    "static/media/background16.webp": "/static/media/background16.99adbff0c057d348aee9.webp",
+    "index.html": "/index.html",
+    "main.1dc6e24d.css.map": "/static/css/main.1dc6e24d.css.map",
+    "main.632cd550.js.map": "/static/js/main.632cd550.js.map",
+    "787.ac8f171e.chunk.js.map": "/static/js/787.ac8f171e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dc6e24d.css",
+    "static/js/main.632cd550.js"
+  ]
+}
